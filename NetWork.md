@@ -78,6 +78,10 @@ IP 头部和TCP 头部通常都大致是20字节的主要原因是设计和历�
 总的来说，这些状态描述了TCP连接在建立、使用和关闭过程中的不同阶段。每个状态都有特定的行为和条件。需要注意的是，具体的实现和细节可能会因TCP栈的不同而略有不同，但上述描述是一种通用的表达方式。
 
 
+### Wireshark 抓包分析
+[![alt]([https://](https://github.com/Dosimz/handy-note/img/tcp1.jpg))]
+> 客户端使用 `int connect(int, const struct sockaddr *, socklen_t)` 命令连接服务器时，三次握手建立连接。
+
 〉*Issues-1*: 什么是区域传送？ 为什么区域传送要用 TCP?
 
 〉*Issues-2*: 什么是 TCP 粘包？ TCP 粘包问题的复现与解决?
