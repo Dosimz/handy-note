@@ -82,6 +82,9 @@ IP 头部和TCP 头部通常都大致是20字节的主要原因是设计和历�
 [![alt](https://github.com/Dosimz/handy-note/blob/main/img/tcp1.jpg)](https://github.com/Dosimz/handy-note/blob/main/img/tcp1.jpg)
 > 客户端使用 `int connect(int, const struct sockaddr *, socklen_t)` 命令连接服务器时，三次握手建立连接。
 
+[![alt](https://github.com/Dosimz/handy-note/blob/main/img/tcp2.jpeg)](https://github.com/Dosimz/handy-note/blob/main/img/tcp2.jpeg)
+> 客户端与服务器之间连接断开时，四次挥手。
+
 〉*Issues-1*: 什么是区域传送？ 为什么区域传送要用 TCP?
 
 〉*Issues-2*: 什么是 TCP 粘包？ TCP 粘包问题的复现与解决?
