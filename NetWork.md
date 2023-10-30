@@ -79,7 +79,7 @@ IP 头部和TCP 头部通常都大致是20字节的主要原因是设计和历�
 
 
 ### Wireshark 抓包分析
-[![alt]([https://](https://github.com/Dosimz/handy-note/img/tcp1.jpg))]
+[![alt]([https://github.com/Dosimz/handy-note/img/tcp1.jpg])
 > 客户端使用 `int connect(int, const struct sockaddr *, socklen_t)` 命令连接服务器时，三次握手建立连接。
 
 〉*Issues-1*: 什么是区域传送？ 为什么区域传送要用 TCP?
