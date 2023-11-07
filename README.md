@@ -21,7 +21,8 @@
 
 <a href="https://github.com/Dosimz/handy-note/blob/main/img/step3.jpg">
   <img src="https://github.com/Dosimz/handy-note/blob/main/img/step3.jpg" alt="alt" width="600"/>
-</a>  
+</a>   
+
 > TCP Flag
 > TCP 首部中有 6 个标志比特，它们中的多个可同时被设置为 1，主要是用于操控 TCP 的状态机的，依次为URG，ACK，PSH，RST，SYN，FIN。
 > 当然只介绍三个：
