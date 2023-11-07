@@ -3,8 +3,9 @@
 ### TCP
 #### 三次握手 🤝
 <a href="https://github.com/Dosimz/handy-note/blob/main/img/tcp1.jpg">
-  <img src="https://github.com/Dosimz/handy-note/blob/main/img/tcp1.jpg" alt="alt" width="300"/>
+  <img src="https://github.com/Dosimz/handy-note/blob/main/img/tcp1.jpg" alt="alt" width="600"/>
 </a>
+
 > 客户端使用 `int connect(int, const struct sockaddr *, socklen_t)` 命令连接服务器时，三次握手建立连接。
 我们首先点开第一行由客户端发向服务端的连接，可以看到下面图片中所展示的TCP报文段更详细的信息。
 [![alt](https://github.com/Dosimz/handy-note/blob/main/img/step1.jpg)](https://github.com/Dosimz/handy-note/blob/main/img/step1.jpg)
