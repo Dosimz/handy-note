@@ -63,3 +63,10 @@
   <img src="https://github.com/Dosimz/handy-note/blob/main/img/tcp2.jpeg" alt="alt" width="600"/>
 </a>  
 > 客户端与服务器之间连接断开时，四次挥手。 `close(sockfd)` 
+
+
+#### TCP 四大拥塞控制总结
+
+
+#### 服务端建立 TCP 连接的系统调用过程
+
