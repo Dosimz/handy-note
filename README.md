@@ -67,8 +67,8 @@
 
 #### TCP 四大拥塞控制总结
 
-<a href="https://github.com/Dosimz/handy-note/blob/main/img/tcp4Alogrim.jpeg">
-  <img src="https://github.com/Dosimz/handy-note/blob/main/img/tcp4Alogrim.jpeg" alt="alt" width="600"/>
+<a href="https://github.com/Dosimz/handy-note/blob/main/img/tcp4Alogrim.jpg">
+  <img src="https://github.com/Dosimz/handy-note/blob/main/img/tcp4Alogrim.jpg" alt="alt" width="600"/>
 </a>  
 > cwnd 大小为 1， 意味着 1 个 MSS 大小的数据
 > 轮次的时间即： 往返延迟时间RTT(Round-Trip Time)  
