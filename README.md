@@ -7,6 +7,7 @@
 </a>
 
 > 客户端使用 `int connect(int, const struct sockaddr *, socklen_t)` 命令连接服务器时，三次握手建立连接。
+
 我们首先点开第一行由客户端发向服务端的连接，可以看到下面图片中所展示的TCP报文段更详细的信息。
 <a href="https://github.com/Dosimz/handy-note/blob/main/img/step1.jpg">
   <img src="https://github.com/Dosimz/handy-note/blob/main/img/step1.jpg" alt="alt" width="600"/>
@@ -62,6 +63,7 @@
 <a href="https://github.com/Dosimz/handy-note/blob/main/img/tcp2.jpeg">
   <img src="https://github.com/Dosimz/handy-note/blob/main/img/tcp2.jpeg" alt="alt" width="600"/>
 </a>  
+
 > 客户端与服务器之间连接断开时，四次挥手。 `close(sockfd)` 
 
 
@@ -69,7 +71,8 @@
 
 <a href="https://github.com/Dosimz/handy-note/blob/main/img/tcp4Alogrim.jpg">
   <img src="https://github.com/Dosimz/handy-note/blob/main/img/tcp4Alogrim.jpg" alt="alt" width="600"/>
-</a>  
+</a>    
+
 > cwnd 大小为 1， 意味着 1 个 MSS 大小的数据
 > 轮次的时间即： 往返延迟时间RTT(Round-Trip Time)  
 
